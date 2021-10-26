@@ -35,9 +35,9 @@ nav ul li a:hover{
 	text-decoration: none;
 }
 .clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+  	content: "";
+  	clear: both;
+  	display: table;
 }
 
 section{
