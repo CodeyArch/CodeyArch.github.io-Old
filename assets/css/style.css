@@ -42,8 +42,8 @@ section{
 	padding: 3%;
 	margin-top: 0.5%;
 	max-width: 93%;
-        background-color: #000000;
-        font-size: 22px;
+    	background-color: #000000;
+    	font-size: 22px;
 	
 }
 aside{
@@ -60,7 +60,7 @@ footer{
 	border-top: 5px solid #000000;
 	color: #FFF;
 	text-align: center;
-	float: clear;
+	
 }
 
 @media all and (max-width: 100%){
