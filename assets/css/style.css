@@ -4,7 +4,7 @@ body{
 	position:absolute;
 	overflow:hidden;
 	left:-8px;
-	right:0px;
+	right:0;
 }
 
 #container{
@@ -49,8 +49,8 @@ nav ul li a:hover{
 section{
 	position: absolute;
 	float: left;
-	left: 0px;
-	right: 0px;
+	left: 0;
+	right: 0;
 	padding: 3%;
 	margin-top: 0;
 	min-height: 1024px;
@@ -69,8 +69,8 @@ aside{
 footer{
 	position: absolute;
 	bottom: 0;
-	left: 0px;
-	right: 0px;
+	left: 0;
+	right: 0;
 	padding: 3%;
 	background-color: #000000;
 	border-top: 5px solid #000000;
@@ -79,30 +79,14 @@ footer{
 	
 }
 
-@media all and (max-width: 100%){
-	header {
-		text-align: center;
-	}
-	nav {
-		text-align: center;
-	}
-	aside {
-		width: 94%;
-		padding: 3%;
-		border-top: 3px solid #000000;
-	}
+.responsive {
+	max-width: initial;
 }
 
-@media all and (max-width: 100%) {
-	nav ul li {
-		display: block;
-		width: 94%;
-	}
-}
 .responsive {
-	max-width: auto;
-	max-height: auto;
+	max-height: initial;
 }
+
 .gallery{
 	float: left;
 	padding: 3%;
@@ -130,71 +114,9 @@ footer{
 	height: 30%;
 }
 
-#gallerytop{
-	float: left;
-	margin: 2% 1% 1% 2%;
-	padding: 1%;
-	background-color: #eee;
-	width: 94%;
-	height: 100%;
-	font-size: 1.00rem;
-	font-family: "Georgia", serif;
-
-}
-#leftcolgallery{
-	background: #dff;
-	float:left;
-	width: 27%;
-	height: 90%;
-	padding: 2%;
-	border-style: solid;
-	border-width: 1%;
-	border-color: #000;
-	margin-left: 1%;
-	margin-right: 1%;
-}
-
-#middlegallery{
-	background: #dff;
-	float:left;
-	width: 27%;
-	height: 90%;
-	padding: 2%;
-	border-style: solid;
-	border-width: 1%;
-	border-color: #000;
-	margin-left: 1%;
-	margin-right: 1%;
-}
-
-#rightcolgallery{
-	background: #dff;
-	float:right;
-	width: 27%;
-	height: 90%;
-	padding: 2%;
-	border-style: solid;
-	border-width: 1%;
-	border-color: #000;
-	margin-left: 1%;
-	margin-right: 1%;
-}
-#gallerybottom{
-	float: left;
-	margin: 2% 1% 1% 2%;
-	padding: 1%;
-	background-color: #eee;
-	width: 94%;
-	height: 100%;
-	font-size: 1.00rem;
-	font-family: "Georgia", serif;
-}
 figure{
 	display:block;
-	margin-top: 1%;
-	margin-bottom: 1%;
-	margin-left: 1%;
-	margin-right: 1%;
+	margin: 1%;
 }
 figcaption{
 	float:left;
@@ -228,27 +150,12 @@ figcaption{
 	display: none;
 }
 
-@media screen and (max-width: 100%){
-	.topnav a:not(:first-child) {display:none;}
-	.topnav a.icon {
-		float: right;
-		display: block;
-	}
-}
 
-@media screen and (max-width: 100%) {
-	.topnav.responsive {position:relative;}
-	.topnav.responsive .icon{
-		position: absolute;
-		right: 0;
-		top: 0;
-	}
 .topnav.responsive a{
 	float: none;
 	display: block;
 	text-align: left;
 	}
-}
 
 #col1
 {
