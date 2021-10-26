@@ -10,7 +10,7 @@ header{
 	background-color: #FFFFFF;
 header #title{
 	font-size :20px;
-	font-family: Arial;
+	font-family: Georgia, serif;
 	color: #000;
 }
 nav{
@@ -26,7 +26,7 @@ nav ul li a{
 	text-decoration: none;
 	color: #E64A19;
 	font-size: 1.2em;
-	font-family: Arial;
+	font-family: Georgia, serif;;
 }
 nav ul li a:hover{
 	color: #000000;
@@ -120,7 +120,7 @@ footer{
 	width: 94%;
 	height: 100%;
 	font-size: 1.00rem;
-	font-family: Comic sans MS;
+	font-family: Georgia, serif;
 
 }
 #leftcolgallery{
@@ -169,7 +169,7 @@ footer{
 	width: 94%;
 	height: 100%;
 	font-size: 1.00rem;
-	font-family: Comic sans MS;
+	font-family: Georgia, serif;
 }
 figure{
 	display:block;
@@ -210,7 +210,7 @@ figcaption{
 	display: none;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 100%){
 	.topnav a:not(:first-child) {display:none;}
 	.topnav a.icon {
 		float: right;
@@ -218,7 +218,7 @@ figcaption{
 	}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 100%) {
 	.topnav.responsive {position:relative;}
 	.topnav.responsive .icon{
 		position: absolute;
@@ -234,14 +234,14 @@ figcaption{
 
 #col1
 {
-	max-width:100%;
+	max-width:38%;
 	float:left;
 	text-align: left;
 	
 }
 #col2
 {
-	max-width:100%;
+	max-width:38%;
 	float:right;
 	
 }
