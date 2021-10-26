@@ -43,7 +43,7 @@ section{
 	float: left;
 	padding: 3%;
 	margin-top: 0.5%;
-	min-width: 93%;
+	width: 93%;
 	min-height: 100%;
     	background-color: #000000;
     	font-size: 22px;
@@ -53,11 +53,11 @@ aside{
 	float: right;
 	padding: 3%;
 	margin-top:0.5%;
-	min-width:24%;
+	width:24%;
 	background-color: #000;
 }
 footer{
-	min-width: 94%;
+	width: 94%;
 	padding: 3%;
 	background-color: #000000;
 	border-top: 5px solid #000000;
