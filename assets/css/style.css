@@ -10,7 +10,7 @@ header{
 	background-color: #FFFFFF;
 }
 header #title{
-	font-size :20px;
+	font-size: 20px;
 	font-family: Georgia, serif;
 	color: #000;
 }
@@ -27,7 +27,7 @@ nav ul li a{
 	text-decoration: none;
 	color: #E64A19;
 	font-size: 1.2em;
-	font-family: Georgia, serif;;
+	font-family: Georgia, serif;
 }
 nav ul li a:hover{
 	color: #000000;
