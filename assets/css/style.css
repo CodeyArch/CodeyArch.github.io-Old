@@ -13,7 +13,7 @@ body{
 	
 }
 header{
-	padding: 3%;
+	padding: 1%;
 	margin-bottom: 0;
 	background-color: #000000;
 }
@@ -21,6 +21,7 @@ header #title{
 	font-size: 20px;
 	font-family: "Georgia", serif;
 	color: #fff;
+
 }
 nav{
 	background-color: #00FFFF;
@@ -40,6 +41,25 @@ nav ul li a:hover{
 	color: #000000;
 	text-decoration: none;
 }
+/* unvisited link */
+a:link {
+	color: red;
+}
+
+/* visited link */
+a:visited {
+	color: green;
+}
+
+/* mouse over link */
+a:hover {
+	color: hotpink;
+}
+
+/* selected link */
+a:active {
+	color: blue;
+}
 .clearfix {
   	content: "";
   	clear: both;
@@ -51,7 +71,7 @@ section{
 	float: left;
 	left: 0;
 	right: 0;
-	padding: 3%;
+	padding: 1%;
 	margin-top: 0;
 	min-height: 1024px;
     	background-color: #000000;
@@ -159,14 +179,9 @@ figcaption{
 
 #col1
 {
-	max-width:38%;
+
 	float:left;
 	text-align: left;
 	
 }
-#col2
-{
-	max-width:38%;
-	float:right;
-	
-}
+

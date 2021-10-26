@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html lang ="en">
+<head>
+    <meta charset="utf-8">
+    <title>Projects page</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta name="viewport" content="device-width, initial-scale=1">
+</head>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+
+<body>
+<div id = "container">
+
+    <header>
+        <a href="index.html"> <img src="assets/img/GoobyDev.png" alt="GoobyDev icon, click here to go to the home page" width=60vw height=75vh></a>
+        <h2 id="title">Projects</h2>
+
+    </header>
+    <nav class = "topnav" id = "mytopnav">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="aboutme.html" class ="active">About me</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"> </a>
+    </nav>
+    <section>
+        <div id = "col1" class = "responsive">
+            <strong> Projects </strong>
+            <p>Hello! My name is Codey Arch. I am 17 years old. I am a junior developer with experience in various programming fields. </p>
+            <p>Second paragraph</p>
+        </div>
+    </section>
+    <footer>
+        Hello
+    </footer>
+
+</div>
+</body>
+</html>
