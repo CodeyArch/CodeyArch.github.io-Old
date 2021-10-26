@@ -43,10 +43,11 @@ section{
 	float: left;
 	padding: 3%;
 	margin-top: 0.5%;
-	width: 93%;
+	width: 94%;
 	min-height: 100%;
     	background-color: #000000;
     	font-size: 22px;
+	color: #000;
 	
 }
 aside{
