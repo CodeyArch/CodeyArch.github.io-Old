@@ -11,7 +11,7 @@ header{
 }
 header #title{
 	font-size: 20px;
-	font-family: Georgia, serif;
+	font-family: "Georgia", serif;
 	color: #000;
 }
 nav{
@@ -27,7 +27,7 @@ nav ul li a{
 	text-decoration: none;
 	color: #000000;
 	font-size: 1.2em;
-	font-family: Georgia, serif;
+	font-family: "Georgia", serif;
 }
 nav ul li a:hover{
 	color: #000000;
@@ -121,7 +121,7 @@ footer{
 	width: 94%;
 	height: 100%;
 	font-size: 1.00rem;
-	font-family: Georgia, serif;
+	font-family: "Georgia", serif;
 
 }
 #leftcolgallery{
@@ -170,7 +170,7 @@ footer{
 	width: 94%;
 	height: 100%;
 	font-size: 1.00rem;
-	font-family: Georgia, serif;
+	font-family: "Georgia", serif;
 }
 figure{
 	display:block;
