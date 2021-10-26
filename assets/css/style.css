@@ -1,21 +1,20 @@
 #container{
-	margin: 0 auto;
-	max-width: 1200px;
+	margin: 0;
+	max-width: 100%;
 
 }
 header{
-	width: 94%;
+	max-width: 94%;
 	padding: 3%;
 	margin-bottom: 0.5%;
-	background-color: #F019FF;
-}
+	background-color: #FFFFFF;
 header #title{
-	font-size :200px;
-	font-family: comic sans MS;
-	color: #fff;
+	font-size :20px;
+	font-family: Arial;
+	color: #000;
 }
 nav{
-	width: 97%;
+	max-width: 97%;
 	background-color: #00FFFF;
 	padding: 0 1.5% 0 1.5%;
 }
@@ -27,7 +26,7 @@ nav ul li a{
 	text-decoration: none;
 	color: #E64A19;
 	font-size: 1.2em;
-	font-family: comic sans MS;
+	font-family: Arial;
 }
 nav ul li a:hover{
 	color: #000000;
@@ -42,27 +41,27 @@ section{
 	padding: 3%;
 	margin-top: 0.5%;
 	width: 93%;
-    background-color: #FFCCFF;
-    font-size: 22px;
+        background-color: #FFFFFF;
+        font-size: 22px;
 }
 aside{
 	float: right;
 	padding: 3%;
 	margin-top:0.5%;
 	width:24%;
-	background-color: #eee;
+	background-color: #FFF;
 }
 footer{
 	width: 94%;
 	padding: 3%;
-	background-color: #e269fa;
+	background-color: #FFFFFF;
 	border-top: 5px solid #e269fa;
 	color: #FFF;
 	text-align: center;
 	float: clear;
 }
 
-@media all and (max-width: 768px){
+@media all and (max-width: 100%){
 	header {
 		text-align: center;
 	}
@@ -76,15 +75,15 @@ footer{
 	}
 }
 
-@media all and (max-width: 330px) {
+@media all and (max-width: 100%) {
 	nav ul li {
 		display: block;
 		width: 94%;
 	}
 }
 .responsive {
-	width: auto;
-	height: auto;
+	max-width: auto;
+	max-height: auto;
 }
 .gallery{
 	float: left;
@@ -235,14 +234,14 @@ figcaption{
 
 #col1
 {
-	width:38%;
+	max-width:100%;
 	float:left;
 	text-align: left;
 	
 }
 #col2
 {
-	width:38%;
+	max-width:100%;
 	float:right;
 	
 }
