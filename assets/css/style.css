@@ -1,5 +1,10 @@
 body{
 	min-height:100vh;
+	min-width:100vw;
+	position:absolute;
+	overflow:hidden;
+	left:-8px;
+	right:0px;
 }
 
 #container{
@@ -44,11 +49,11 @@ nav ul li a:hover{
 section{
 	position: absolute;
 	float: left;
-	left: 8px;
-	right: 8px;
+	left: 0px;
+	right: 0px;
 	padding: 3%;
 	margin-top: 0;
-	min-height: 640px;
+	min-height: 1024px;
     	background-color: #000000;
     	font-size: 22px;
 	color: #fff;
@@ -64,8 +69,8 @@ aside{
 footer{
 	position: absolute;
 	bottom: 0;
-	left: 8px;
-	right: 8px;
+	left: 0px;
+	right: 0px;
 	padding: 3%;
 	background-color: #000000;
 	border-top: 5px solid #000000;
