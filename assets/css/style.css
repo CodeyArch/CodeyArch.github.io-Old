@@ -12,7 +12,7 @@ header{
 header #title{
 	font-size: 20px;
 	font-family: "Georgia", serif;
-	color: #000;
+	color: #fff;
 }
 nav{
 	max-width: 97%;
@@ -41,22 +41,23 @@ section{
 	float: left;
 	padding: 3%;
 	margin-top: 0.5%;
-	width: 93%;
+	max-width: 93%;
         background-color: #000000;
         font-size: 22px;
+	color:#fff
 }
 aside{
 	float: right;
 	padding: 3%;
 	margin-top:0.5%;
-	width:24%;
+	max-width:24%;
 	background-color: #000;
 }
 footer{
-	width: 94%;
+	max-width: 94%;
 	padding: 3%;
 	background-color: #000000;
-	border-top: 5px solid #e269fa;
+	border-top: 5px solid #000000;
 	color: #FFF;
 	text-align: center;
 	float: clear;
