@@ -5,16 +5,18 @@ body{
 	overflow-x:hidden;
 	overflow-y:auto;
 	left:-8px;
+	top:-10px;
 	right:0;
 }
 
 #container{
-	margin: 0;
+	top:0;
 	max-width: 100%;
 }
 header{
+	top:0;
 	padding: 1%;
-	margin-bottom: 0;
+
 	background-color: #000000;
 }
 header #title{
