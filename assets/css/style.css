@@ -203,12 +203,26 @@ figcaption{
 * {box-sizing: border-box}
 .mySlides1, .mySlides2 {display: none}
 
+.resize {
+	width: 200px;
+	height: auto;
+}
 
+.resize {
+	width: 200px;
+	height: auto;
+}
 /* Slideshow container */
 .slideshow-container {
 	max-width: 40vw;
 	position: relative;
 	margin: auto;
+}
+.slideshow-container2 {
+	max-width: 20vw;
+	position: relative;
+	margin: auto;
+
 }
 
 /* Next & previous buttons */
