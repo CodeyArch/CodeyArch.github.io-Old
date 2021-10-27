@@ -16,10 +16,11 @@
             x.className = "topnav";
         }
     }
-    var slideIndex = [1,1];
-    var slideId= ["mySlides1", "mySlides2"]
+    var slideIndex = [1,1,1];
+    var slideId= ["mySlides1", "mySlides2", "mySlides3"]
     showSlides(1,0)
     showSlides(1,1)
+    showSlides(1,2)
     // Next/previous controls
     function plusSlides(n, no) {
         showSlides(slideIndex[no] += n, no);
@@ -73,13 +74,13 @@
             <p> <strong>Description:</strong> This is my current main project, it is a mobile game for android that will include a vast amount
                 of different minigames. Currently the only games it includes is an easy/hard mode of a
                 spaceshooter. Will possisbly include minigames similar to flappy bird and doodle jump</p>
-            <p> Click arrow to navigate slideshow</p>
+            <p> Click arrows to navigate slideshow</p>
             <div class="slideshow-container2">
 
                 <!-- Full-width images with number and caption text -->
                 <div class="mySlides1 fade" style="display: block;">
                     <div class="numbertext">1 / 4</div>
-                    <img src="assets/img/MinigameManiaSpaceHowToPlay.png" style="width:100%">
+                    <img class = "two" src="assets/img/MinigameManiaSpaceHowToPlay.png" style="width:100%">
                     <div class="text">How to play</div>
                 </div>
 
@@ -96,7 +97,7 @@
                 </div>
                 <div class="mySlides1 fade">
                     <div class="numbertext">4 / 4</div>
-                    <img class = "resize" src="assets/img/MinigameManiaSpaceGameOver.png" style="width:100%">
+                    <img src="assets/img/MinigameManiaSpaceGameOver.png" style="width:100%">
                     <div class="text">End score</div>
                 </div>
 
@@ -119,13 +120,13 @@
                 The game is simply the same level but with many twists. What this entails is the first level repeating over
             and over but each time a new change happens. This change can range from inverted controls, player sizes, reduce visibility
             and many more. The game is perfect for speedrunning but can also be played casually.</p>
-            <p>Click arrow to navigate slideshow</p>
+            <p>Click arrows to navigate slideshow</p>
             <div class="slideshow-container">
 
                 <!-- Full-width images with number and caption text -->
                 <div class="mySlides2 fade" style="display: block;">
                     <div class="numbertext">1 / 4</div>
-                    <iframe style="width:100%" src="https://www.youtube.com/embed/Q8O1JPtMtEA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"></iframe>
+                    <iframe style="width:100%; height:55vh" src="https://www.youtube.com/embed/Q8O1JPtMtEA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"></iframe>
                     <div class="text">Gameplay</div>
                 </div>
                 <div class="mySlides2 fade">
@@ -160,9 +161,60 @@
                 be found <a href ="https://goobydev.itch.io/the-same-level-prototype"> Here</a></p>
             <p><strong> Credits: </strong> Codey Arch - Lead game designer. <a href="https://opengameart.org/content/5-chiptunes-action">
                 Juhani Junkala - Chiptune music used in game. </a></p>
+            <!-- Same Level Prototype info, description etc -->
+            <h2>Spring Time Sunflower (Game Jam Edition)</h2>
+            <p><strong>Description: </strong> A game made in less than 24 hours due to me joining the Spring Jam 2021 a bit late. All parts of this game
+            were done by me, including the music and graphics. The game involves moving your sunflower left and right, collecting water but
+            avoiding salt. Once your flower grows to a certain size, you have the opportunity to retire that flower to the fields and begin anew,
+            resetting your score but gaining a multiplier boost. It has a very high risk/reward system despite it's simplistic gameplay and it's certainly
+            a fun way to kill some time, trying to get absurd scores </p>
+            <p>Click arrows to navigate slideshow</p>
+            <div class="slideshow-container">
 
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides3 fade" style="display: block;">
+                    <div class="numbertext">1 / 5</div>
+                    <img src="assets/img/CoverSunflower.png" style="width:100%">
+                    <div class="text">Gameplay</div>
+                </div>
+                <div class="mySlides3 fade">
+                    <div class="numbertext">2 / 5</div>
+                    <img src="assets/img/SpringTimeSunflowerMenu.png" style="width:100%">
+                    <div class="text">First Level Layout</div>
+                </div>
 
+                <div class="mySlides3 fade">
+                    <div class="numbertext">3 / 5</div>
+                    <img src="assets/img/SpringTimeSunflowerGamePlay1.png" style="width:100%">
+                    <div class="text">Different controls in use</div>
+                </div>
 
+                <div class="mySlides3 fade">
+                    <div class="numbertext">4 / 5</div>
+                    <img src="assets/img/SpringTimeSunflowerGamePlay2.png" style="width:100%">
+                    <div class="text">One of the many twists</div>
+                </div>
+                <div class="mySlides3 fade">
+                    <div class="numbertext">5 / 5</div>
+                    <img src="assets/img/SpringTimeSunflowerGameOver.png" style="width:100%">
+                    <div class="text">One of the many twists</div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+            </div>
+            <br>
+            <p><strong>Strengths of this project: </strong> The game was made in 24 hours and has no major bugs. The gameplay is simple but it's really fun!
+            I like how this project turned out and would certainly like to do something similar again </p>
+            <p><strong>Weaknesses of this project: </strong> The music and graphics. I was brand new to pixel art and music making for this jam and there was a
+            restriction that you couldn't use any premade graphics/audio. I gave it my best shot but on a future project I would love to improve these areas. </p>
+            <p><strong>Software involved: </strong> Unity game engine, visual studio code  </p>
+            <p><strong>Where you can find it: </strong>  Will attach the source code once it's public, in the meantime you can find the game
+                <a href ="https://goobydev.itch.io/spring-time-sunflower"> Here</a></p>
+            <p><strong> Credits: </strong> Codey Arch - Solo game developer, designer, artist and musician for this project </p>
+
+            <h2>This is the end of my project list, expect to see more here in the future!</h2>
         </div>
         <div id = "col3" class = "responsive">
             <p>Project list</p>

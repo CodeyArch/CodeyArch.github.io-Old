@@ -204,27 +204,27 @@ figcaption{
 	padding: 1%;
 }
 * {box-sizing: border-box}
-.mySlides1, .mySlides2 {display: none}
+.mySlides1, .mySlides2, .mySlides3 {display: none}
 
-.resize {
-	width: 200px;
+img.one {
+	width: auto;
 	height: auto;
 }
 
-.resize {
-	width: 200px;
-	height: auto;
+img.two {
+	width: 50%;
+	height: 50%;
 }
 /* Slideshow container */
 .slideshow-container {
-	max-width: 40vw;
+	max-width: 65vw;
 	position: relative;
-	margin: auto;
+
 }
 .slideshow-container2 {
-	max-width: 20vw;
+	max-width: 25vw;
 	position: relative;
-	margin: auto;
+
 
 }
 
