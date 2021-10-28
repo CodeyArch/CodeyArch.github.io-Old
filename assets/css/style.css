@@ -181,6 +181,7 @@ figcaption{
 
 #col1
 {
+	max-width: 70%;
 	float:left;
 	font-size: 18px;
 	text-align: left;
